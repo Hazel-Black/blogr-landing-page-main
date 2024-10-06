@@ -1,2 +1,41 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*COLORS*/
+  /*main-colors*/
+  ---main-bg: hsl(0, 0%, 100%);
+  ---main-text: hsl(207, 13%, 34%);
+  ---hero-bg: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  ---footer-bg: hsl(240, 10%, 16%);
+  ---footer-text: hsl(240, 2%, 79%);
+  --headings: hsl(208, 49%, 24%);
+  ---mid-section: linear-gradient(
+    to right,
+    hsl(237, 17%, 21%),
+    hsl(237, 23%, 32%)
+  );
+
+  /*button-colors*/
+  ---btn-text-color: hsl(356, 100%, 66%);
+  --btn-bg: hsl(0, 0%, 100%);
+  ---btn-hover-bg: hsl(355, 100%, 74%);
+  ---btn-hover-text: hsl(0, 0%, 100%);
+  ---alt-btn-text-color: hsl(0, 0%, 100%);
+  ---alt-btn-bg: transparent;
+  ---alt-btn-hover-bg: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
